@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/web/static/css/main.0d890ccb.chunk.css",
+    "main.js": "/web/static/js/main.480663c9.chunk.js",
+    "main.js.map": "/web/static/js/main.480663c9.chunk.js.map",
+    "runtime-main.js": "/web/static/js/runtime-main.69fc4686.js",
+    "runtime-main.js.map": "/web/static/js/runtime-main.69fc4686.js.map",
+    "static/css/2.b80cc862.chunk.css": "/web/static/css/2.b80cc862.chunk.css",
+    "static/js/2.96a2556d.chunk.js": "/web/static/js/2.96a2556d.chunk.js",
+    "static/js/2.96a2556d.chunk.js.map": "/web/static/js/2.96a2556d.chunk.js.map",
+    "index.html": "/web/index.html",
+    "precache-manifest.305f209d769d83bd7eba87b4403caab0.js": "/web/precache-manifest.305f209d769d83bd7eba87b4403caab0.js",
+    "service-worker.js": "/web/service-worker.js",
+    "static/css/2.b80cc862.chunk.css.map": "/web/static/css/2.b80cc862.chunk.css.map",
+    "static/css/main.0d890ccb.chunk.css.map": "/web/static/css/main.0d890ccb.chunk.css.map",
+    "static/js/2.96a2556d.chunk.js.LICENSE": "/web/static/js/2.96a2556d.chunk.js.LICENSE",
+    "static/media/App.css": "/web/static/media/back_4.e94eadf1.jpg",
+    "static/media/general.css": "/web/static/media/copperplate-gothic-light.4e9a36a2.ttf",
+    "static/media/deep.jpg": "/web/static/media/deep.d0b86ee7.jpg",
+    "static/media/deep_1.png": "/web/static/media/deep_1.2e000123.png",
+    "static/media/deep_2.png": "/web/static/media/deep_2.1efbff3e.png",
+    "static/media/deep_3.png": "/web/static/media/deep_3.d6687210.png",
+    "static/media/deep_4.png": "/web/static/media/deep_4.d3cc84bb.png",
+    "static/media/deep_save.jpg": "/web/static/media/deep_save.d433f550.jpg",
+    "static/media/finance.jpg": "/web/static/media/finance.6108b89a.jpg",
+    "static/media/finance_1.png": "/web/static/media/finance_1.b4fec40d.png",
+    "static/media/finance_2.png": "/web/static/media/finance_2.ace9cc8a.png",
+    "static/media/finance_3.png": "/web/static/media/finance_3.1004f295.png",
+    "static/media/logo1.png": "/web/static/media/logo1.f30da107.png",
+    "static/media/snake.jpg": "/web/static/media/snake.77ebd006.jpg",
+    "static/media/snake_1.png": "/web/static/media/snake_1.8c8480ba.png",
+    "static/media/snake_2.png": "/web/static/media/snake_2.5c80ab61.png",
+    "static/media/website.jpg": "/web/static/media/website.6ac763bb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69fc4686.js",
+    "static/css/2.b80cc862.chunk.css",
+    "static/js/2.96a2556d.chunk.js",
+    "static/css/main.0d890ccb.chunk.css",
+    "static/js/main.480663c9.chunk.js"
+  ]
+}

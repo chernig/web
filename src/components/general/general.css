@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Copperplate Gothic Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Copperplate Gothic Light'), url('./fonts/copperplate-gothic-light.ttf') format('woff');
+}
+.general {
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#name {
+    font-family: 'Copperplate Gothic Light';
+    color: #eaeaea;
+    word-spacing: 0.5em;
+    font-size: 3vw;
+    letter-spacing: 0.5em;
+    font-weight: 75;
+    line-height: 2em;
+    -webkit-transform:scale(2.0, 1.0);
+    -moz-transform:scale(2.0, 1.0);
+    -ms-transform:scale(2.0, 1.0);
+    -o-transform:scale(2.0, 1.0);
+    transform:scale(1.1,1.0);
+}
+
+#position {
+    font-family: 'Copperplate Gothic Light';
+    color: #acacad;
+    font-size: 1.5vw;
+    letter-spacing: 0.7em;
+    word-spacing: 0.2em;
+    font-weight: 75;
+    line-height: 3.5em;
+}
+
+#line {
+    /* color: #5d6366; */
+    width: 63%;
+    border-bottom: rgba(93, 99, 102, 1) solid 0.5px;
+}

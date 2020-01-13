@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skills {
+    font-size: 0.8vw;
+}
+
+.skill {
+    position: absolute;
+    /* animation: fade 2s ease-out; */
+}
+.html {
+    right: 14%;
+    bottom: 10%;
+    font-size: 0.9em;
+}
+
+.css {
+    top: 35%;
+    left: 0; 
+    right: 0; 
+    font-size: 0.8em;
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+}
+
+.css .pentagon p {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.python {
+    bottom: 10%;
+    left: 14%;
+    /* font-size: 0.8vw; */
+    /* transform: rotate(45deg); */
+}
+
+.react {
+    top:20%;
+    left: 13%;
+}
+
+.js {
+    top:41%;
+    left: 24%;
+    font-size: 0.9em;
+
+}
+
+.soft {
+    word-break:break-word;
+    word-spacing: 3em;
+    top: 13%;
+    left: 33%;
+}
+
+.data {
+    word-break:break-word;
+    word-spacing: 5em;
+    top: 41%;
+    right: 24%;
+}
+
+.sql {
+    top: 48%;
+    left: 8%;
+}
+
+.django {
+    top:20%;
+    right: 13%;
+}
+
+.git {
+    top: 48%;
+    right: 8%;
+    font-size: 1em;
+}
+.test {
+    top:13%;
+    right: 33%;
+}
+
+@media only screen and (max-width: 720px) {
+    .python {
+        bottom: 5%;
+        left: 25%;
+        width: 20vw !important;
+    }
+    .skill.python .pentagon {
+        width: 20vw !important;
+        height: 20vw !important;
+        font-size: 2.5em !important;
+    }
+    .html {
+        bottom: 5%;
+        right: 25%;
+        width: 20vw !important;
+    }
+    .skill.html .pentagon {
+        width: 20vw !important;
+        height: 20vw !important;
+        font-size: 3em !important;
+    } 
+    .js {
+        top: 67%;
+        width: 24vw !important;
+        left: 14%;
+    }
+    .skill.js .pentagon {
+        width: 24vw !important;
+        height: 24vw !important;
+        font-size: 2.5em !important;
+    }
+    .data {
+        top: 67%;
+        width: 24vw !important;
+        right: 14%;
+    }
+    .skill.data .pentagon {
+        width: 24vw !important;
+        height: 24vw !important;
+        font-size: 2.5em !important;
+    }
+    .git {
+        top: 38%;
+        width: 20vw !important;
+    }
+    .skill.git .pentagon {
+        width: 18vw !important;
+        height: 18vw !important;
+        font-size: 3em !important;
+    }
+    .sql {
+        top: 38%;
+        width: 18vw !important;
+    }
+    .skill.sql .pentagon {
+        width: 18vw !important;
+        height: 18vw !important;
+        font-size: 3em !important;
+    }
+    .css {
+        top: 30%;
+        width: 15vw !important;
+    }
+    .skill.css .pentagon {
+        width: 15vw !important;
+        height: 15vw !important;
+        font-size: 3em !important;
+    }
+    .react {
+        top: 25%;
+        left: 15%;
+        width: 15vw !important;
+    }
+    .skill.react .pentagon {
+        width: 15vw !important;
+        height: 15vw !important;
+        font-size: 2.5em !important;
+    }
+    .soft {
+        top: 11%;
+        left: 26%;
+        width: 20vw !important;
+    }
+    .skill.soft .pentagon {
+        width: 20vw !important;
+        height: 20vw !important;
+        font-size: 2.5em !important;
+    }
+    .test {
+        top: 11%;
+        right: 26%;
+        width: 20vw !important;
+    }
+    .skill.test .pentagon {
+        width: 20vw !important;
+        height: 20vw !important;
+        font-size: 2.3em !important;
+    }
+    .django {
+        top: 25%;
+        right: 15%;
+        width: 15vw !important;
+    }
+    .skill.django .pentagon {
+        width: 15vw !important;
+        height: 15vw !important;
+        font-size: 2.5em !important;
+    }
+
+
+
+
+}

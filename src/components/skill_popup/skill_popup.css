@@ -1,0 +1,7 @@
+.skill-popup {
+    position: absolute;
+    border: 1px solid green;
+    top: -10%;
+    width: 10vw;
+    left: 100%;
+}

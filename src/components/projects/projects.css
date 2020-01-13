@@ -1,0 +1,67 @@
+.projects {
+    position: relative;
+    background-color: #0d1116;
+    height: 100vh;
+    width: 100vw;
+}
+
+.p-view {
+    position: absolute;
+    bottom: 0;
+    gap: 10px;
+    height: 92vh;
+    max-width: 115vh;
+    min-width: 50vh;
+    padding-bottom: 2vh;
+    padding-top: 1vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: grid;
+}
+
+.snake {
+    /* grid-area: a; */
+   grid-row: 1 / 9;
+   grid-column: 1 / 7;
+}
+
+/* .snake img {
+    bottom: 0;
+    right: 0;
+} */
+
+.deep {
+    grid-column: 7 / 16;
+    grid-row: 7 / 13;
+    /* grid-area: d; */
+
+}
+
+/* .website img {
+    top: 0;
+    left: 0;
+} */
+
+.finance {
+    grid-column: 1 / 7;
+    grid-row: 9 / 13;
+    /* grid-area: c; */
+
+}
+/* .finance img {
+    top: 0;
+    right: 0;
+} */
+
+.website {
+    grid-column: 7 / 16;
+    grid-row: 1 / 7;
+    /* grid-area: b; */
+
+}
+
+/* .deep img {
+    bottom: 0;
+    left: 0;
+} */

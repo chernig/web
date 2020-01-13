@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+.skill {
+    filter:
+        drop-shadow( 0px  3px 0 rgb(97, 151, 185))
+        drop-shadow( 0px -3px 0 rgb(97, 151, 185))
+        drop-shadow( 3px  0px 0 rgb(97, 151, 185))
+        drop-shadow(-3px  0px 0 rgb(97, 151, 185));
+    -webkit-filter:
+        drop-shadow( 0px  3px 0 rgb(97, 151, 185))
+        drop-shadow( 0px -3px 0 rgb(97, 151, 185))
+        drop-shadow( 3px  0px 0 rgb(97, 151, 185))
+        drop-shadow(-3px  0px 0 rgb(97, 151, 185));
+}
+
+.pentagon {
+    display: table;
+    background-color: white;
+    -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    /* border: 1px solid red; */
+}
+
+.pentagon p {
+    display: table-cell;
+    color: rgb(62, 83, 97);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    font-family: 'Abril Fatface', cursive;
+    /* border: 1px solid blue; */
+}
+

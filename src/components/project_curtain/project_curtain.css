@@ -1,0 +1,55 @@
+.curtain {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 4px rgb(224, 225, 226) solid;
+    /* visibility: visible; */
+}
+
+.lower {
+    position: absolute;
+    background-color: rgba(13, 17, 22, 0.91);
+    width: 100%;
+    bottom: 0;
+    height: 50.01%;
+    color: #e0e1e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower button {
+    font-size: 1vw;
+    background-color: rgb(13, 17, 22);
+    color: #e0e1e2;
+    width: 50%;
+    border: 4px rgb(224, 225, 226) solid;
+    padding: 0.5em;
+}
+
+.upper {
+    position: absolute;
+    background-color: rgba(13, 17, 22, 0.91);
+    width: 100%;
+    top: 0;
+    height: 50%;
+    color: #e0e1e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.closeButton {
+    cursor: pointer;
+    float: right;
+}
+
+.gitIcon {
+    float: left;
+}
+
+#alert-dialog-title {
+    text-align: center;
+}

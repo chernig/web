@@ -32,8 +32,8 @@ function Contacts(props) {
                     <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <div className='mx-auto images'>
-                            <a href='https://www.linkedin.com/in/roman-chernobay-902a68149/' target='_blank' rel="noopener noreferrer"><GitHubIcon style={{ fontSize: '10vh', color: 'black' }}/></a>
-                            <a href='https://github.com/chernig/' target='_blank' rel="noopener noreferrer"><LinkedInIcon style={{ fontSize: '10vh', color: 'black' }}/></a>
+                            <a href='https://github.com/chernig' target='_blank' rel="noopener noreferrer"><GitHubIcon style={{ fontSize: '10vh', color: 'black' }}/></a>
+                            <a href='https://www.linkedin.com/in/roman-chernobay-902a68149/' target='_blank' rel="noopener noreferrer"><LinkedInIcon style={{ fontSize: '10vh', color: 'black' }}/></a>
                         </div>
                     </Card.Body>
                     </Accordion.Collapse>

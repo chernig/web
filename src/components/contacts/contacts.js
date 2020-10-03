@@ -25,7 +25,7 @@ function Contacts(props) {
         <div className='contacts'>
         <Container className='center'>
             <Accordion className='accordItem'>
-                <Card>
+                <Card className='accCard'>
                     <Accordion.Toggle as={Card.Header} eventKey="0">
                     <h2 className='title'>SOCIAL LINKS</h2>
                     </Accordion.Toggle>
@@ -38,7 +38,7 @@ function Contacts(props) {
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                <Card>
+                <Card className='accCard'>
                     <Accordion.Toggle as={Card.Header} eventKey="1">
                     <h2 className='title'>PERSONAL CONTACTS</h2>
                     </Accordion.Toggle>
@@ -50,7 +50,7 @@ function Contacts(props) {
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                <Card>
+                <Card className='accCard'>
                     <Accordion.Toggle as={Card.Header} eventKey="2">
                     <h2 className='title'>MY CV</h2>
                     </Accordion.Toggle>

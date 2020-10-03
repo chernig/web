@@ -29,8 +29,8 @@ class Navbar extends React.Component {
                 <div id='menu' className={`nav-links ${this.state.active ? 'open':null}`}>
                     <a data-menuanchor='skill_view' className='link' href="#skill_view">skills</a>
                     <a data-menuanchor='projects' className='link' href="#projects">projects</a>
-                    <a data-menuanchor='education' className='link' href="#sb">education</a>
-                    <a data-menuanchor='about me' className='link' href="#s">about me</a>
+                    <a data-menuanchor='education' className='link' href="#education">education</a>
+                    <a data-menuanchor='contact' className='link' href="#contact">contact me</a>
                     {/* <li className='nav-link' data-menuanchor='skill_view'><a className="link" href="#skill_view">skills</a></li>
                     <li className='nav-link' data-menuanchor='projects'><a className="link" href="#m">projects</a></li>
                     <li className='nav-link' data-menuanchor='education'><a className="link" href="#m">education</a></li>

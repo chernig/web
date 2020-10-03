@@ -11,6 +11,8 @@ import finance_2 from './images/finance_2.png'
 import finance_3 from './images/finance_3.png'
 import snake_1 from './images/snake_1.png'
 import snake_2 from './images/snake_2.png'
+import website_1 from './images/website_1.JPG'
+import website_2 from './images/website_2.JPG'
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 // TODO : responsive through react
@@ -18,7 +20,7 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 function Gallery(props) {
     const img_data = {
         deep: [deep_1, deep_2, deep_3, deep_4],
-        website: [deep_3, deep_3],
+        website: [website_1, website_2],
         finance: [finance_1, finance_2, finance_3],
         snake: [snake_1, snake_2]
     }

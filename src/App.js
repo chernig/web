@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar/navbar'
 import General from './components/general/general'
 import Skills from './components/skills/skills'
 import ReactFullpage from "@fullpage/react-fullpage";
-import Projects from './components/projects/projects'
+import Projects from './components/projects/projects';
+import Education from './components/education/education'
+import Contacts from './components/contacts/contacts'
 
 
 
@@ -35,7 +38,7 @@ class App extends React.Component {
     navigation = {true}
     menu = {'#menu'}
     dragAndMove = {'fingersonly'}
-    anchors = {['main', 'skill_view', 'projects']}
+    anchors = {['main', 'skill_view', 'projects', 'education', 'contact']}
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
@@ -47,6 +50,12 @@ class App extends React.Component {
           </div>
           <div className='section'>
             <Projects />
+          </div>
+          < div className='section'>
+            <Education />
+          </div>
+          < div className='section'>
+            <Contacts />
           </div>
         </ReactFullpage.Wrapper>
       );

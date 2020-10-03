@@ -16,19 +16,20 @@ function ProjectCurtain(props) {
         snake: {title : 'AI Snake',
                 description: '#python #evolutionary algorithm #pygame',
                 link: 'https://github.com/chernig?tab=repositories',
-                full: `This project was created to test <a href=#>Evolutionary alrorigthm</a>`},
+                full: `This project was created to test how evolution algorithm can handle a basic snake game. The game was made using popular
+                       Python library called pygame.`},
         website: {title: 'Portfolio website', description: '#HTML #CSS #JavaScript #React', link: 'https://github.com/chernig?tab=repositories',
-                full: ''},
+                full: 'This very website :)'},
         finance: {title: 'Trading bot', description: '#python #ForexAPI #pyqt', link: 'https://github.com/chernig?tab=repositories',
-                full: ''},
+                full: `This project is Autotrading app that serves as automated service for FXCM trading platform. It assumes
+                 utilization of multiple FXCM API functions as well as internal trading strategies to act as automated
+                  trading agent. Application's primary modules are: FXCM API implementation part, SQlite database, GUI,
+                   strategy & streaming modules.`},
         deep: {title: 'Deep learning model', description: '#python #tensorflow-gpu #ssd_mobilenet_v2_coco', link: 'https://github.com/chernig?tab=repositories', 
-                full: `The next step was to prepare the data for training.
-                     First things first, to make training faster, the original size of every data frame has been changed. 
-                     Despite the default image size for the selected model (300 x 300), the data has been resized into 512 x 384
-                      as many items would be barely noticeable with lower resolution (that will lead to complicated labelling
-                         and less accuracy). To do so, labelImg by Tzutalin has been used (https://github.com/tzutalin/labelImg).
-                          Within the process, every single data frame received additional .xml file (annotations), where rectangles
-                           defined object to be detected (Figure 1).`}
+                full: `This project was designed to create an AI that can indentify empty cans or bottles in public places such as parks or streets.
+                        To do so, a specific model had to be trained that can analyze an input image and identify the required objects. SSD_mobilenet model
+                         was selected as a model template due to its high training speed and high accuracy. However, due to lack of data for model training,
+                         this model's accuracy wasn't high.`}
     }
 
     const [open, setOpen] = useState(false)
@@ -64,7 +65,6 @@ function ProjectCurtain(props) {
             >
             <DialogTitle id="alert-dialog-title" onClose={handleClose}>
                 <a className='gitIcon' href={project_description[props.name].link} target='_blank' rel="noopener noreferrer"><GitHubIcon/>Github</a>
-                {project_description[props.name].title}
                 <CloseIcon className='closeButton' onClick={handleClose}/>
                 
             </DialogTitle>

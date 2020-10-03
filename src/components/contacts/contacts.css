@@ -1,0 +1,60 @@
+.contacts {
+    position: relative;
+    background-color: #0d1116;
+    height: 100vh;
+    width: 100vw;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.title {
+    text-align: center;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+#download-button {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.card-header {
+    background-color: rgba(13, 17, 22, 0.98);
+    color: #e0e1e2;
+    letter-spacing: 0.7em;
+    height: 10vh;
+    /* border-radius: 50px; */
+}
+
+.card {
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 200px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* h2 {
+    position: absolute;
+    bottom: 0;
+} */
